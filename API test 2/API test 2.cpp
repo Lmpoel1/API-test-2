@@ -14,6 +14,7 @@ void display_json(
     utility::string_t const& prefix)
 {
     wcout << prefix << jvalue.serialize() << endl;
+
 }
 
 pplx::task<http_response> make_task_request(
